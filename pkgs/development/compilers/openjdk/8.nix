@@ -66,7 +66,7 @@ let
              name = "jaxp-${repover}.tar.gz";
              url = "${baseurl}/jaxp/archive/${repover}.tar.gz";
              sha256 = if stdenv.isAarch64 then "928e363877afa7e0ad0c350bb18be6ab056b23708c0624a0bd7f01c4106c2a14"
-                      else "25a651c670d5b036042f7244617a3eb11fec80c07745c1c8181a1cdebeda3d8e";
+                      else "9c572058985da7664494ce5711112f32fcb8d9d4fe52c3e72ccd7925feaee665";
           };
   nashorn = fetchurl {
              name = "nashorn-${repover}.tar.gz";
